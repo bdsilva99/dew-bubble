@@ -15,6 +15,8 @@ def raoult_law_kvalue( T, P, a, *tempUnit, *gamma ):
     #      and p in units of K and bar. Antoine coefficients from other sources 
     #      will require compatible units.
     #
+    #  tempUnit - OPTIONAL the unit of temperature used
+    #
     #  gamma - OPTIONAL activity coefficients for use in a modified Raoult's law.
     #
     # OUTPUT:
