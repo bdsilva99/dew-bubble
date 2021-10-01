@@ -19,10 +19,16 @@ def raoult_law_kvalue( T, P, a, *tempUnit, *gamma ):
     #
     #  gamma - OPTIONAL activity coefficients for use in a modified Raoult's law.
     #
+    #  tempUnit - The units of temperature. Can be Kelvin, Fahrenheit, Celsius, or Rankine
+    #             Parameter should be inputted as the first letter of the temperature scale.
+    #             
+    #
     # OUTPUT:
     #
     #  K - row vector containing the K-value for each species
     #
+    #  Example: (eg: raoult_law_kvalue(500, 2, [1,2,3], *gamma, F))        
+    #  
     # Code originally by James C. Sutherland
     # Modified by Tyler R. Josephson
     
