@@ -1,7 +1,7 @@
 from antoine import antoine
 import numpy as np
 
-def raoult_law_kvalue( T, P, a, *gamma, tempUnit ):
+def raoult_law_kvalue( T, P, a, tempUnit="K", *gamma):
     # Calculates the equilibrium coefficient from Raoult's law
     # Change on line 6
     # INPUTS:
