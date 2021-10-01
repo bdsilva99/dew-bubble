@@ -1,6 +1,6 @@
-def antoine( a, T, tempUnit ):
+def antoine( a, T, *tempUnit):
     # More text in the comments
-    # Ps = antoine( a, T, tempUnit )
+    # Ps = antoine( a, T, *tempUnit )
     #
     # Uses Antoine's equation to obtain the vapor pressure of a substance given
     # the coefficients of the equation:
@@ -10,7 +10,7 @@ def antoine( a, T, tempUnit ):
     #  a - the antoine coefficients with coeffients in columns and species in
     #      rows. Coefficients from NIST expect units of bar and K.
     #  T - the temperature at which the vapor pressure is evaluated (K)
-    #  tempUnit - the unit of temperature used
+    #  tempUnit - OPTIONAL the unit of temperature used
     #
     # OUTPUT:
     #  Ps - row vector of species vapor pressures at the specified temperature,
