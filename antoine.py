@@ -1,4 +1,4 @@
-def antoine( a, T, *tempUnit):
+def antoine( a, T, tempUnit = "K"):
     # More text in the comments
     # Ps = antoine( a, T, *tempUnit )
     #
