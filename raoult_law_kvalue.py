@@ -18,7 +18,7 @@ def raoult_law_kvalue( T, P, a, *gamma, tempUnit ):
     #  gamma - OPTIONAL activity coefficients for use in a modified Raoult's law.
     #
     #  tempUnit - The units of temperature. Can be Kelvin, Fahrenheit, Celsius, or Rankine
-    #             Parameter should be inputted as the first letter of the temperature scale
+    #             Parameter should be inputted as the first letter of the temperature scale.
     #             
     #
     # OUTPUT:
