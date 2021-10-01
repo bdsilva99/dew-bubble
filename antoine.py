@@ -21,7 +21,7 @@ def antoine( a, T ):
     # Code originally by: James C. Sutherland
     # Modified by: Tyler R. Josephson
     
-    ## Random comment - haha 
+    # Another merge request 
 
     Ps = 10.0**( a[:,0] - a[:,1] / ( a[:,2] + T ) )
     return Ps
